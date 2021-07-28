@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+D:\Revature Java practice\.metadata\.plugins\org.eclipse.jdt.core
+4019238163.index
+109304725.index
+1497512382.index
+3542543407.index
+2041609368.index
+1426027179.index
+3365158668.index
+636338211.index
+1728840033.index
+53385726.index
+196184584.index

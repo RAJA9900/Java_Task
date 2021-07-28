@@ -1,0 +1,33 @@
+package regex;
+
+public class Dl_check {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(isValidDl("TN1420180000134"));
+		System.out.println(isValidvoterid("TAY7896098"));
+		System.out.println(isvalidDebitcard("678954376589"));
+		System.out.println(isValidDl("TN1420180p00134"));
+		System.out.println(isValidvoterid("TAYuiy6098"));
+		System.out.println(isvalidDebitcard("67895RTYU6589"));
+		System.out.println(isValidDl("TN14 2018 0000134"));
+		System.out.println(isValidvoterid("TAY789I098"));
+		System.out.println(isvalidDebitcard("RTYU54376589"));
+		
+
+	}
+	
+	public static boolean isValidDl(String num)
+	{
+		return num!=null && num.matches("[A-Z]{2}[0-9]{13}");
+	}
+	
+	public static boolean isValidvoterid(String votenum)
+	{
+		return votenum!=null && votenum.matches("[A-Z]{3}[0-9]{7}");
+	}
+	public static boolean isvalidDebitcard(String DebitNum)
+	{
+		return DebitNum!=null && DebitNum.matches("[0-9]{16}");
+	}
+}
